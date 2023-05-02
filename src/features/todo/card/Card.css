@@ -1,0 +1,26 @@
+.card__container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 50px auto;
+  padding: 10px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  max-width: 568px;
+}
+
+.card__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__title a {
+  color: blue;
+}
+
+.card__footer {
+  text-align: center;
+}

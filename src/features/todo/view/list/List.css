@@ -1,0 +1,15 @@
+.list__container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 50px auto;
+  align-items: center;
+}
+
+.list__tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
